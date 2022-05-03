@@ -38,4 +38,28 @@ Quando novas páginas precisam ser carregadas, não há a necessidade de uma nov
 * Existirão muitas interações na página com a renderização de conteúdos dinâmicos;
 * A indexação no Google não seja prioridade.
 
-## 
+------------------------------------------------------------
+
+# WEB 
+
+## Criação do projeto
+
+Usamos o comando ```─ npm create vite@latest``` (https://vitejs.dev/guide/)
+
+## CSS - Tailwindcss com PostCSS
+
+Instalar o Tailwind CSS como um plugin PostCSS é a maneira mais simples de integrá-lo com ferramentas de construção como webpack, Rollup, Vite e Parcel. (https://tailwindcss.com/docs/installation/using-postcss)
+
+## Icones - Phospor React
+
+Phosphor é uma família de ícones flexível para interfaces, diagramas, apresentações —  o que for, na verdade. ``` npm install phosphor-react ``` (https://phosphoricons.com/)
+
+
+## Acessibilidade - Headless UI
+
+Componentes de interface do usuário totalmente sem estilo e totalmente acessíveis, projetados para se integrar perfeitamente ao Tailwind CSS.
+
+```npm install @headlessui/react``` (https://headlessui.dev/react/popover)
+
+
+
