@@ -51,6 +51,14 @@ Usamos o comando ```─ npm create vite@latest``` (https://vitejs.dev/guide/)
 ## CSS - Tailwindcss com PostCSS
 
 Instalar o Tailwind CSS como um plugin PostCSS é a maneira mais simples de integrá-lo com ferramentas de construção como webpack, Rollup, Vite e Parcel. (https://tailwindcss.com/docs/installation/using-postcss)
+``` npm install -D tailwindcss postcss autoprefixer ```
+``` npx tailwindcss init ```
+
+Um plug-in que fornece uma redefinição básica para estilos de formulário que facilitam a substituição de elementos de formulário com utilitários.
+ ``` npm install -D @tailwindcss/forms ``` (https://github.com/tailwindlabs/tailwindcss-forms)
+
+Adiciona utilitários de estilo para barras de rolagem no Firefox e navegadores baseados em webkit.
+``` npm install --save-dev tailwind-scrollbar ``` (https://www.npmjs.com/package/tailwind-scrollbar)
 
 ## Icones - Phospor React
 
