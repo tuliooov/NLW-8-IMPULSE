@@ -71,5 +71,50 @@ Componentes de interface do usuário totalmente sem estilo e totalmente acessív
 
 ```npm install @headlessui/react``` (https://headlessui.dev/react/popover)
 
+## Prisma com SQL Lite
+
+O Prisma ajuda os desenvolvedores de aplicativos a criar mais rapidamente e  cometer menos erros com um kit de ferramentas de banco de dados de código aberto para PostgreSQL, MySQL, SQL Server, SQLite, MongoDB e CockroachDB. (https://www.prisma.io/docs/concepts/database-connectors/sqlite)
+
+``` npm i prisma -D ```
+``` npx prisma init ```
+
+### O que são Database Migrations?
+
+Você conhece o conceito de Database Migrations (ou Schema Migrations)? Trata-se de técnicas e ferramentas que auxiliam no versionamento da base de dados durante o desenvolvimento, que normalmente evitam a escrita de scripts SQL e fazem as atualizações no banco por meio da própria linguagem de programação e frameworks que estejamos utilizando.
+
+### Criando tabela
+
+``` npx prisma migrate dev ``` dev or deploy
+
+### Visualizando tabelas
+
+``` npx prisma studio ```
+
+
+## NODEMAILER
+
+O Nodemailer é um módulo para aplicativos Node.js para permitir o envio de e-mail fácil como um bolo. O projeto começou em 2010, quando não havia uma opção sensata para enviar mensagens de e-mail, hoje é a solução que a maioria dos usuários do Node.js recorre por padrão. (https://nodemailer.com/about/)
+
+### MailTrap
+
+Serviço de sandbox de e-mail. Capture o tráfego SMTP de ambientes de preparação e desenvolvimento Automatize fluxos e cenários de teste com API flexível Analise o conteúdo de e-mail para pontuação de spam e valide HTML/CSS (https://mailtrap.io/inboxes/1727079/messages/2761371621)
+
+
+## SOLID
+
+1. Single Responsibility Principle
+2. Open/closed Principle
+3. Liskov Substitution Principle
+4. Interface Segregation Principle
+5. Dependency Inversion Principle
+
+.....
+
+1. Cada classe tem uma responsabilidade única;
+2. As classes de aplicação devem ser abertas para extensão mas fechadas para modificação;
+3. Nós devemos poder substituir uma classe pai por uma herança dela e tudo continuar funcionando;
+4. ...
+5. 
+
 
 
