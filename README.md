@@ -117,4 +117,18 @@ Serviço de sandbox de e-mail. Capture o tráfego SMTP de ambientes de preparaç
 5. 
 
 
+## JEST
+
+Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade. Funciona com projetos usando: Babel , TypeScript , Node , React , Angular , Vue e muito mais! (https://jestjs.io/pt-BR/)
+
+``` npm install jest -D ```
+``` npx jest --init ```
+``` npm install ts-node -D ```
+
+### SWC
+Para que seus testes do Jest sejam executados mais rapidamente, você pode trocar o executor padrão baseado em JavaScript ( ts-jest) por uma substituição do Rust usando o SWC. (https://swc.rs/docs/usage/jest)
+
+``` npm i -D jest @swc/jest ```
+
+
 
